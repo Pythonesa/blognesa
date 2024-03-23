@@ -1,0 +1,27 @@
+---
+import Navbar from "@/partials/Navbar";
+
+export interface Props {
+    head: {
+        title: string;
+    };
+}
+
+const {
+    head: { title },
+} = Astro.props as Props;
+---
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width" />
+        <meta name="generator" content={Astro.generator} />
+        <link rel="icon" type="image/png" href="/favicon.png" />
+        <title>{title}</title>
+    </head>
+    <body class="bg-slate-900 text-gray-300">
+        <Navbar />
+        <slot />
+    </body>
+</html>

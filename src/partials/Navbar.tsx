@@ -1,7 +1,20 @@
-import Logo from "@/components/Logo";
+import Logo from "@/components/Header/Logo";
+import NavMenu from "@/components/Header/NavBar/NavMenu";
+import NavMenuItem from "@/components/Header/NavBar/NavMenuItem";
+import HeaderTwoColumns from "@/components/Header/HeaderTwoColumns";
+import Section from "@/components/Section";
 
 export default function Navbar() {
     return (
-        <a href="/"><Logo icon={"./favicon.png"} name="Blognesa" /></a>
-    )
+        <Section>
+            <HeaderTwoColumns>
+                <a href="/"><Logo icon={"./favicon.png"} name="Blognesa" /></a>
+        
+                <NavMenu>
+                    <NavMenuItem href="/">Home</NavMenuItem>
+                    <NavMenuItem href="/blog">Blog</NavMenuItem>
+                </NavMenu>
+            </HeaderTwoColumns>
+        </Section>
+    );
 }

@@ -26,7 +26,7 @@ export default function Project({ img, name, description, link, category }: IPro
             </div>
             <div>
                 <div className="flex flex-col gap-y-2 items-center md:flex-row">
-                    <a href={link} target="_blank" rel="noreferrer" className="hover:text-cyan-400 transition-all">
+                    <a href={link} target="_blank" rel="noreferrer" className="font-bold hover:bg-gradient-to-br from-cyan-400 to-purple-400 hover:bg-clip-text hover:text-transparent transition-all">
                         <h2 className="text-xl font-semibold">{name}</h2>
                     </a>
                     <div className="ml-3 flex flex-wrap gap-2">{category}</div>

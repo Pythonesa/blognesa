@@ -28,25 +28,25 @@ export default function Hero() {
                 }
                 socialButtons={
                     <>
-                        <a href="https://discord.gg/BcSA5n3wcw">
+                        <a href="https://discord.gg/BcSA5n3wcw" target="_blank" rel="noreferrer">
                             <HeroSocial
                                 src="./assets/images/discord.png"
                                 alt="Comunidad de Discord"
                             />
                         </a>
-                        <a href="https://github.com/pythonesa">
+                        <a href="https://github.com/pythonesa" target="_blank" rel="noreferrer">
                             <HeroSocial
                                 src="./assets/images/github.png"
                                 alt="GitHub"
                             />
                         </a>
-                        <a href="https://www.youtube.com/@pythonesa">
+                        <a href="https://www.youtube.com/@pythonesa" target="_blank" rel="noreferrer">
                             <HeroSocial
                                 src="./assets/images/youtube.png"
                                 alt="YouTube"
                             />
                         </a>
-                        <a href="https://www.twitch.tv/pythonesa">
+                        <a href="https://www.twitch.tv/pythonesa" target="_blank" rel="noreferrer">
                             <HeroSocial
                                 src="./assets/images/twitch.png"
                                 alt="Twitch"

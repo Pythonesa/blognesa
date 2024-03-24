@@ -34,6 +34,23 @@ export default function Projects() {
                             </>
                         }
                 />
+                <Project
+                    name="Pythoneso Chat Bot"
+                    description="Un bot que lee e interactúa con el chat de mi canal de twitch utilizando la librería TwitchIO para python. Tiene comandos, TTS(Text-To-Speech), reproduce sonidos y cuenta con una interfaz gráfica para controlar funcionalidades y facilitar la lectura de los mensajes enviados al chat."
+                    link="https://github.com/Pythonesa/pythoneso-chat-bot"
+                    img={{
+                        src: "./assets/images/pythoneso.png",
+                        alt: "Pythoneso Chat Bot",
+                    }}
+                    category={
+                            <>
+                                <ColorTags color={Colors.GREEN}>Python</ColorTags>
+                                <ColorTags color={Colors.ORANGE}>Open Source</ColorTags>
+                                <ColorTags color={Colors.ZINC}>Backend</ColorTags>
+                                <ColorTags color={Colors.FUCHSIA}>Frontend</ColorTags>
+                            </>
+                        }
+                />
             </div>
         </Section>
     );

@@ -1,0 +1,45 @@
+---
+import type { FrontmatterPage, IFrontMatter } from "@/types/IFrontMatter";
+import BlogGallery from "@/components/Blog/BlogGallery";
+import PaginationHeader from "@/components/Blog/PaginationHeader";
+import PaginationNewerOlder from "@/components/Blog/PaginationNewerOlder";
+import Section from "@/components/Section";
+import Base from "@/layouts/Base.astro";
+import { sortByDate } from "@/utils/Posts";
+
+type GetStaticPaths = {
+    paginate: any;
+};
+
+export async function getStaticPaths({ paginate }: GetStaticPaths) {
+    const allPosts = await Astro.glob<IFrontMatter>("./*.md");
+    const sortedPosts = sortByDate(allPosts);
+    return paginate(sortedPosts, {
+        pageSize: 6
+    });
+}
+
+interface Props {
+    page: FrontmatterPage;
+}
+
+const { page } = Astro.props as Props;
+const titleSuffix = " - Pythonesa's Blog";
+const titleBase = "Página " + page.currentPage;
+const title = titleBase + titleSuffix;
+const description = "Página " + page.currentPage + " de Pythonesa's Blog";
+---
+
+<Base head={{ title }}>
+    <Section>
+        <PaginationHeader title="Todos los posts" description="¡Espero que disfruten la lectura!" />
+    </Section>
+
+    <Section>
+        <BlogGallery posts={page.data} />
+    </Section>
+
+    <Section>
+        <PaginationNewerOlder page={page} />
+    </Section>
+</Base>

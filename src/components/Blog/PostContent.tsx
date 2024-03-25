@@ -17,7 +17,7 @@ export default function PostContent({ content, children }: IPostContentProps) {
                     loading="lazy"
                 />
             </div>
-            <div className="prose prose-invert mt-8 prose-img:rounded-lg">
+            <div className="prose prose-invert mt-8 prose-img:rounded-lg text-justify">
                 {children}
             </div>
         </div>

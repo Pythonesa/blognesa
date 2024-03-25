@@ -1,0 +1,18 @@
+---
+import type { IFrontMatter } from "@/types/IFrontMatter";
+import Base from "@/layouts/Base.astro";
+import Post from "@/partials/Post";
+
+export interface Props {
+    content: IFrontMatter;
+}
+
+const { content } = Astro.props as Props;
+const title = content.title + " - Pythonesa's Blog";
+---
+
+<Base head={{ title }}>
+    <Post frontmatter={content}>
+        <slot />
+    </Post>
+</Base>

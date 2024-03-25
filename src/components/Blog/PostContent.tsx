@@ -11,7 +11,7 @@ export default function PostContent({ content, children }: IPostContentProps) {
         <div className="mx-auto max-w-prose mt-4">
             <div className="aspect-w-3 aspect-h-2">
                 <img
-                    className="object-cover object-center h-full w-full rounded-lg"
+                    className="object-cover object-center h-full rounded-lg m-auto"
                     src={content.imgSrc}
                     alt={content.imgAlt}
                     loading="lazy"

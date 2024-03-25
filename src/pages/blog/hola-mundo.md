@@ -1,7 +1,7 @@
 ---
 title: Hola mundo!
 description: Saludar al mundo es de buen dev...
-date: 2024-03-24
+date: 2024-03-25
 imgSrc: "/assets/images/_posts/helloworld.svg"
 imgAlt: "Pythonesa"
 layout: "@/layouts/BasePost.astro"

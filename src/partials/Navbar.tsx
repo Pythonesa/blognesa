@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <Section>
             <HeaderTwoColumns>
-                <a href="/"><Logo icon={"/favicon.png"} name="Pythonesa's Blog" /></a>
+                <a href="/"><Logo icon={"/favicon.png"} name="Logo" /></a>
         
                 <NavMenu>
                     <NavMenuItem href="/">Home</NavMenuItem>

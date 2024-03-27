@@ -20,7 +20,7 @@ export default function Hero() {
                 }
                 avatar={
                     <img
-                        className="h-56 w-auto"
+                        className="h-64 w-auto"
                         src="./assets/images/pythonesa.gif"
                         alt="Pythonesa"
                         loading="lazy"

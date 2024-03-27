@@ -17,7 +17,7 @@ export default function Project({ img, name, description, link, category }: IPro
             <div className="shrink-0">
                 <a href={link} target="_blank" rel="noreferrer">
                     <img
-                        className="w-16 h-16 ml-4 hover:translate-y-1 transition-all mx-auto"
+                        className="w-24 h-24 ml-4 hover:translate-y-1 transition-all mx-auto"
                         src={img.src}
                         alt={img.alt}
                         loading="lazy"

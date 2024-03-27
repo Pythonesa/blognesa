@@ -1,0 +1,21 @@
+---
+import Base from "@/layouts/Base.astro";
+import PaginationHeader from "@/components/Blog/PaginationHeader";
+import Section from "@/components/Section";
+import SerieCard from "@/components/Series/SerieCard";
+---
+
+<Base head={{ title: "Series - Pythonesa's Blog" }}>
+    <PaginationHeader title="Series" description="Posts ordenados por categoría, en orden para facilitar la lectura." />
+    <Section>
+        <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
+            <SerieCard 
+                title="Pensamiento lógico" 
+                link="/series/pensamiento_logico" 
+                description="Todos los artículos escritos para entender y potenciar el pensamiento lógico de un desarrollador de software." 
+                imgSrc="/assets/images/_series/pensamiento_logico.png"
+                imgAlt="Portada de libro con diseño mecánico y astronómico que simboliza la profundidad del conocimiento."
+            />
+        </div>
+    </Section>
+</Base>

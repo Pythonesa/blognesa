@@ -1,0 +1,32 @@
+---
+import PaginationHeader from "@/components/Blog/PaginationHeader";
+import Base from "@/layouts/Base.astro";
+import Section from "@/components/Section";
+
+export interface Props {
+    title: string;
+    description: string;
+    imgSrc: string;
+    imgAlt: string;
+}
+const pageTitle = Astro.props.title + " - Pythonesa's Blog";
+---
+
+<Base head={{ title: pageTitle }}>
+    <PaginationHeader title={Astro.props.title} description={Astro.props.description} />
+    <Section>
+        <div class="mx-auto mt-4">
+            <div class="aspect-w-3 aspect-h-2 max-w-prose mx-auto">
+                <img
+                    class="object-cover object-center h-full rounded-lg m-auto"
+                    src={Astro.props.imgSrc}
+                    alt={Astro.props.imgAlt}
+                    loading="lazy"
+                />
+            </div>
+            <div class="mt-8 prose-img:rounded-lg text-justify">
+                <slot></slot>
+            </div>
+        </div>
+    </Section>
+</Base>

@@ -13,6 +13,7 @@ export default function Navbar() {
                 <NavMenu>
                     <NavMenuItem href="/">Home</NavMenuItem>
                     <NavMenuItem href="/blog">Blog</NavMenuItem>
+                    <NavMenuItem href="/series">Series</NavMenuItem>
                 </NavMenu>
             </HeaderTwoColumns>
         </Section>

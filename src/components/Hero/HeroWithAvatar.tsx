@@ -17,7 +17,7 @@ export default function HeroWithAvatar({ title, description, avatar, socialButto
                     {socialButtons}
                 </div>
             </div>
-            <div className="shrink-0 mt-2">{avatar}</div>
+            <div className="shrink-0">{avatar}</div>
         </div>
     )
     

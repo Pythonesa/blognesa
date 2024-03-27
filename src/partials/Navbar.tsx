@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <Section>
             <HeaderTwoColumns>
-                <a href="/"><Logo icon={"/favicon.png"} name="Logo" /></a>
+                <a href="/"><Logo icon={"/favicon.png"} name="Icono que muestra un diálogo con el texto Blog y un lápiz escribiendo líneas." /></a>
         
                 <NavMenu>
                     <NavMenuItem href="/">Home</NavMenuItem>

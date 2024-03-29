@@ -1,7 +1,7 @@
 ---
 title: Bases Matemáticas
 description: Las matemáticas nos ayudan a entender la vida.
-date: 2024-03-28
+date: 2024-03-28T00:01
 imgSrc: "/assets/images/_posts/bases_matematicas.png"
 imgAlt: "Una imagen conceptual que muestra varios objetos esféricos que se asemejan a planetas, una bombilla brillante en el centro rodeada por símbolos matemáticos y geométricos dibujados en una superficie oscura, con un libro, lápiz y calculadora cerca."
 layout: "@/layouts/BasePost.astro"

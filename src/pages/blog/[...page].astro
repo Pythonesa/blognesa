@@ -12,7 +12,7 @@ type GetStaticPaths = {
 };
 
 export async function getStaticPaths({ paginate }: GetStaticPaths) {
-    const allPosts = await Astro.glob<IFrontMatter>("./*.md");
+    const allPosts = await Astro.glob<IFrontMatter>("./**/*.md");
     const sortedPosts = sortByDate(allPosts);
     return paginate(sortedPosts, {
         pageSize: 6

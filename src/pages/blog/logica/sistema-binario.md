@@ -63,7 +63,7 @@ Si vamos a contar del 1 al 5, en decimal contamos 1, 2, 3, 4, 5, y en binario co
 
 0 - 1 = 11
 
-1 - 0 = 0
+1 - 0 = 1
 
 1 - 1 = 0
 

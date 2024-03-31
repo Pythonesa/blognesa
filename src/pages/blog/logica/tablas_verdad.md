@@ -19,7 +19,7 @@ Desde el más simple condicional hasta el más complejo malabar booleano, las ta
 
 Yendo más a la lógica pura, una buena definición de las mismas sería que son herramientas que nos ayudan a determinar cuales son las condiciones necesarias para que un enunciado propuesto sea válido.
 
-Vamos a ver los 3 tipos principales de tablas de verdad.
+Vamos a ver los 4 tipos principales de tablas de verdad.
 
 </br>
 
@@ -37,7 +37,7 @@ Supongamos que estamos haciendo un sistema y sabemos que nuestros usuarios siemp
 
 </br>
 
-**Conjunción**
+***Conjunción***
 
 Una conjunción unicamente es verdadera cuando todas sus proposiciones son verdaderas.
 
@@ -51,7 +51,7 @@ En un concurso de cocina la consigna es hacer una ensalada que contenga una papa
 
 </br>
 
-**Disyunción**
+***Disyunción***
 
 Una disyunción es verdadera cuando al menos una de sus proposiciones es verdadera.
 
@@ -62,6 +62,20 @@ Si tenemos varias condiciones pero nos basta con que una se cumpla, ésto es lo 
 Ahora avanzó el concurso de cocina y llegamos al postre, resulta que deben hacer una ensalada de frutas utilizando uvas y/o manzanas.
 
 ![Ejemplo de tabla de verdad de disyunción](/assets/images/_posts/verdaddisjuncionejemplo.png)
+
+</br>
+
+***Disyunción exclusiva***
+
+Una disyunción exclusiva va a ser verdadera cuando una de sus proposiciones sea verdadera y la otra falsa.
+
+La utilizamos si necesitamos que de dos condiciones solamente se cumpla una de ellas.
+
+![Tabla de verdad de disyunción exclusiva](/assets/images/_posts/verdadxor.png)
+
+Para la final del concurso de cocina los participantes deben hacer un postre con chocolate blanco o chocolate negro, no pueden usar ambos.
+
+![Ejemplo de tabla de verdad de disyunción exclusiva](/assets/images/_posts/verdadxorejemplo.png)
 
 </br>
 

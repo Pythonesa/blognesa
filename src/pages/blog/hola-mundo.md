@@ -29,6 +29,6 @@ Cuando exploramos un nuevo lenguaje, desde los albores del desarrollo, se necesi
 </br></br>
 También tiene un valor pedagógico invaluable, ya que permite aprender la sintaxis básica de un lenguaje, familiarizarse con el entorno de desarrollo y obtener la satisfacción de quienes están dando sus primeros pasos al ver su primer resultado.
 </br></br>
-Existe un sitio que colecciona ejemplos de hola mundo en todos los lenguajes, <a href="https://helloworldcollection.de" style="color: plum;">helloworldcollection.de</a>.
+Existe un sitio que colecciona ejemplos de hola mundo en todos los lenguajes, <a href="https://helloworldcollection.de" style="color: violet;">helloworldcollection.de</a>.
 </br></br>
 ¡A ver cuantos se animan a probar!

@@ -15,6 +15,28 @@ export default function Projects() {
         >
             <div className="flex flex-col gap-6">
                 <Project
+                    name="Pawdopt"
+                    description="Es un proyecto de código abierto actualmente en desarrollo.
+                    Pensado para apoyar a organizaciones sin fines de lucro que buscan encontrar el hogar ideal para mascotas rescatadas."
+                    link="https://github.com/Pythonesa/pawdopt"
+                    img={{
+                        src: "./assets/images/pawdopt.png",
+                        alt: "Pawdopt",
+                    }}
+                    category={
+                        <>
+                            <ColorTags color={Colors.INDIGO}>TypeScript</ColorTags>
+                            <ColorTags color={Colors.AMBER}>Astro</ColorTags>
+                            <ColorTags color={Colors.EMERALD}>React</ColorTags>
+                            <ColorTags color={Colors.CYAN}>Tailwind</ColorTags>
+                            <ColorTags color={Colors.ORANGE}>Open Source</ColorTags>
+                            <ColorTags color={Colors.FUCHSIA}>Frontend</ColorTags>
+                            <ColorTags color={Colors.VIOLET}>Netlify Edge Functions</ColorTags>
+                            <ColorTags color={Colors.LIME}>Supabase</ColorTags>
+                        </>
+                    }
+                />
+                <Project
                     name="Pythonesa's Blog"
                     description="Este proyecto fue creado para practicar frontend y experimentar con la creación de un blog que genere las rutas a los posts de manera automática a partir de archivos de markdown. Es un proyecto de código abierto y es el que utiliza este mismo blog."
                     link="https://github.com/Pythonesa/blognesa"

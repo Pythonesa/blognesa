@@ -29,7 +29,7 @@ Por ejemplo, si debemos recorrer una distancia de 10 kilómetros, pero ya recorr
 
 **Operador aritmético de multiplicación:**
 
-Está representado por el símbolo ***** en programación, aunque en la vida cotidiana solemos verlo representado por el simbolo **x** y tiene como objetivo multiplicar dos valores.
+Está representado por el símbolo **\*** en programación, aunque en la vida cotidiana solemos verlo representado por el simbolo **x** y tiene como objetivo multiplicar dos valores.
 
 Por ejemplo, si estamos armando canastas navideñas para 20 personas y en cada canasta pondremos 3 turrones, podemos saber cuantos turrones necesitamos en total: **20 x 3** = 60.
 

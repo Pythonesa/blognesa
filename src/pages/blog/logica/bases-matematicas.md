@@ -2,7 +2,7 @@
 title: Bases Matemáticas
 description: Las matemáticas nos ayudan a entender la vida.
 date: 2024-03-28T00:01
-imgSrc: "/assets/images/_posts/bases_matematicas.png"
+imgSrc: "/assets/images/_posts/logica1/bases_matematicas.png"
 imgAlt: "Una imagen conceptual que muestra varios objetos esféricos que se asemejan a planetas, una bombilla brillante en el centro rodeada por símbolos matemáticos y geométricos dibujados en una superficie oscura, con un libro, lápiz y calculadora cerca."
 layout: "@/layouts/BasePost.astro"
 ---
@@ -32,13 +32,13 @@ Si queremos sumar dos valores, tenemos que sumar el primero y el segundo, y al s
 
 Pero también tenemos un tercer componente que es el símbolo, cuya función es tan simple como indicar lo que se necesita hacer para llegar a ese resultado.
 
-![elementos de una suma](/assets/images/_posts/operacion.png)
+![elementos de una suma](/assets/images/_posts/logica1/operacion.png)
 
 Si bien comprender que está compuesta por estos elementos claramente es importante, no es lo más relevante, lo que realmente debemos entender es el proceso de la operación.
 
 La magia de sumar dos números para obtener un tercero como resultado y que sea el correcto se encuentra en el proceso de la operación. ¿Realmente saben sumar? ¿Se acuerdan cuando en primaria les enseñaban a contar y para sumar simplemente seguían contando a partir del primer número la cantidad que debían sumarle?
 
-![proceso de una suma](/assets/images/_posts/proceso_suma.png)
+![proceso de una suma](/assets/images/_posts/logica1/proceso_suma.png)
 
 Es en el momento en que hacemos este proceso número a número que realmente lo comprendemos, luego lo asimilamos y simplemente lo hacemos sin recordar activamente el proceso.
 

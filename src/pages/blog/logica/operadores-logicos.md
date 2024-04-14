@@ -2,7 +2,7 @@
 title: Operadores lógicos
 description: Evaluando expresiones lógicas.
 date: 2024-04-03T20:25
-imgSrc: "/assets/images/_posts/operadores_logicos.png"
+imgSrc: "/assets/images/_posts/logica1/operadores_logicos.png"
 imgAlt: "Muestra una lámpara de escritorio con un diseño creativo que se asemeja a un robot. Tiene dos focos ajustables y una pantalla que muestra botones etiquetados con funciones diversas."
 layout: "@/layouts/BasePost.astro"
 ---

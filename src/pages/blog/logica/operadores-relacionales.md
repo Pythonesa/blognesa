@@ -2,7 +2,7 @@
 title: Operadores Relacionales
 description: Comparando valores.
 date: 2024-04-09T01:00
-imgSrc: "/assets/images/_posts/op_relacionales.png"
+imgSrc: "/assets/images/_posts/logica1/op_relacionales.png"
 imgAlt: "Representación artística de un señor utilizando monóculos para comparar sus datos."
 layout: "@/layouts/BasePost.astro"
 ---

@@ -2,7 +2,7 @@
 title: Tablas de verdad
 description: Herramientas para tomar decisiones.
 date: 2024-03-31T18:15
-imgSrc: "/assets/images/_posts/tablasverdad.png"
+imgSrc: "/assets/images/_posts/logica1/tablasverdad.png"
 imgAlt: "Panel luminoso con luces circulares azules y naranjas dispuestas en un patrón geométrico, con un área brillante rectangular en el centro que evoca un estilo tecnológico y vanguardista."
 layout: "@/layouts/BasePost.astro"
 ---
@@ -29,11 +29,11 @@ Esta tabla es la más básica de todas, pero no hay que subestimarla ya que es i
 
 La tabla de negación devuelve el valor opuesto a la proposición que se le indique.
 
-![Tabla de verdad de negación](/assets/images/_posts/verdadnegacion.png)
+![Tabla de verdad de negación](/assets/images/_posts/logica1/verdadnegacion.png)
 
 Supongamos que estamos haciendo un sistema y sabemos que nuestros usuarios siempre mienten. Entonces les preguntamos de que color es el Sol y utilizamos la negación para obtener la verdad.
 
-![Ejemplo de tabla de verdad de negación](/assets/images/_posts/verdadnegacionejemplo.png)
+![Ejemplo de tabla de verdad de negación](/assets/images/_posts/logica1/verdadnegacionejemplo.png)
 
 </br>
 
@@ -43,11 +43,11 @@ Una conjunción unicamente es verdadera cuando todas sus proposiciones son verda
 
 Entonces, cuando necesitamos validar que una serie de condiciones se cumplen, por ejemplo, ésta es la manera de hacerlo.
 
-![Tabla de verdad de conjunción](/assets/images/_posts/verdadconjuncion.png)
+![Tabla de verdad de conjunción](/assets/images/_posts/logica1/verdadconjuncion.png)
 
 En un concurso de cocina la consigna es hacer una ensalada que contenga una papa y una cebolla:
 
-![Ejemplo de tabla de verdad de conjunción](/assets/images/_posts/verdadconjuncionejemplo.png)
+![Ejemplo de tabla de verdad de conjunción](/assets/images/_posts/logica1/verdadconjuncionejemplo.png)
 
 </br>
 
@@ -57,11 +57,11 @@ Una disyunción es verdadera cuando al menos una de sus proposiciones es verdade
 
 Si tenemos varias condiciones pero nos basta con que una se cumpla, ésto es lo que necesitamos.
 
-![Tabla de verdad de disyunción](/assets/images/_posts/verdaddisjuncion.png)
+![Tabla de verdad de disyunción](/assets/images/_posts/logica1/verdaddisjuncion.png)
 
 Ahora avanzó el concurso de cocina y llegamos al postre, resulta que deben hacer una ensalada de frutas utilizando uvas y/o manzanas.
 
-![Ejemplo de tabla de verdad de disyunción](/assets/images/_posts/verdaddisjuncionejemplo.png)
+![Ejemplo de tabla de verdad de disyunción](/assets/images/_posts/logica1/verdaddisjuncionejemplo.png)
 
 </br>
 
@@ -71,11 +71,11 @@ Una disyunción exclusiva va a ser verdadera cuando una de sus proposiciones sea
 
 La utilizamos si necesitamos que de dos condiciones solamente se cumpla una de ellas.
 
-![Tabla de verdad de disyunción exclusiva](/assets/images/_posts/verdadxor.png)
+![Tabla de verdad de disyunción exclusiva](/assets/images/_posts/logica1/verdadxor.png)
 
 Para la final del concurso de cocina los participantes deben hacer un postre con chocolate blanco o chocolate negro, no pueden usar ambos.
 
-![Ejemplo de tabla de verdad de disyunción exclusiva](/assets/images/_posts/verdadxorejemplo.png)
+![Ejemplo de tabla de verdad de disyunción exclusiva](/assets/images/_posts/logica1/verdadxorejemplo.png)
 
 </br>
 

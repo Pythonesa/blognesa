@@ -2,7 +2,7 @@
 title: Introducción al pensamiento lógico!
 description: El superpoder que cualquier dev debería dominar...
 date: 2024-03-27
-imgSrc: "/assets/images/_posts/intro_pensamiento_logico.png"
+imgSrc: "/assets/images/_posts/logica1/intro_pensamiento_logico.png"
 imgAlt: "Persona utilizando una computadora portátil entre nubes, con símbolos de tecnología y el mundo digital, destacando la unión de la inteligencia humana y artificial."
 layout: "@/layouts/BasePost.astro"
 ---

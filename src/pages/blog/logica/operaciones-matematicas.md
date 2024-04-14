@@ -2,7 +2,7 @@
 title: Operaciones matemáticas
 description: Propiedades de las operaciones matemáticas básicas.
 date: 2024-03-29T08:45
-imgSrc: "/assets/images/_posts/operaciones.png"
+imgSrc: "/assets/images/_posts/logica1/operaciones.png"
 imgAlt: "Una imagen que muestra una bombilla iluminada que emerge de un libro abierto, rodeada de ecuaciones y símbolos matemáticos flotantes."
 layout: "@/layouts/BasePost.astro"
 ---

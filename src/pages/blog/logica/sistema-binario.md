@@ -2,7 +2,7 @@
 title: Sistema binario
 description: La lógica que una computadora entiende.
 date: 2024-03-29T15:45
-imgSrc: "/assets/images/_posts/binario.png"
+imgSrc: "/assets/images/_posts/logica1/binario.png"
 imgAlt: "Un espacio de trabajo digital futurista con un globo holográfico, código binario y varias visualizaciones de datos flotando sobre un portátil, al lado de una taza de café."
 layout: "@/layouts/BasePost.astro"
 ---
@@ -27,11 +27,11 @@ Ya que antes hablamos de las operaciones básicas, vamos a usar dos de ellas (mu
 
 Para convertir desde el sistema decimal a binario basta con hacer una serie de divisiones entre 2 hasta llegar a un resultado de 1 o 0 y escribirlo junto a los restos de forma inversa.
 
-![Decimal a binario](/assets/images/_posts/decimal_binario.png)
+![Decimal a binario](/assets/images/_posts/logica1/decimal_binario.png)
 
 Y para convertir de binario a decimal debemos multiplicar cada dígito del número binario por su base (es decir 2) elevado a la potencia que corresponda a su posición en el número binario comenzando desde cero en sentido inverso; al sumar los productos de las multiplicaciones, el resultado es el número decimal.
 
-![Binario a decimal](/assets/images/_posts/binario_decimal.png)
+![Binario a decimal](/assets/images/_posts/logica1/binario_decimal.png)
 
 </br>
 
@@ -53,7 +53,7 @@ Si vamos a contar del 1 al 5, en decimal contamos 1, 2, 3, 4, 5, y en binario co
 
 1 + 1 = 10
 
-![Suma binaria](/assets/images/_posts/sumabinaria.png)
+![Suma binaria](/assets/images/_posts/logica1/sumabinaria.png)
 
 </br>
 
@@ -67,7 +67,7 @@ Si vamos a contar del 1 al 5, en decimal contamos 1, 2, 3, 4, 5, y en binario co
 
 1 - 1 = 0
 
-![Resta binaria](/assets/images/_posts/restabinaria.png)
+![Resta binaria](/assets/images/_posts/logica1/restabinaria.png)
 
 </br>
 
@@ -85,7 +85,7 @@ En el caso de la multiplicación, nos basamos en dos principios básicos: todo n
 
 Y se resuelve igual que en el sistema decimal, multiplicamos cada dígito del multiplicador y luego sumamos los productos.
 
-![Multiplicación binaria](/assets/images/_posts/multibinaria.png)
+![Multiplicación binaria](/assets/images/_posts/logica1/multibinaria.png)
 
 </br>
 
@@ -95,7 +95,7 @@ Para dividir utilizamos la resta y la multiplicación (igual que en el sistema d
 
 Con la facilidad de que si el dividendo es mayor al divisor, vamos a tener un 1 y si es menor un 0.
 
-![División binaria](/assets/images/_posts/divisionbinaria.png)
+![División binaria](/assets/images/_posts/logica1/divisionbinaria.png)
 
 </br>
 

@@ -2,7 +2,7 @@
 title: Operadores Aritméticos
 description: Manipulando datos numéricos.
 date: 2024-04-07T01:33
-imgSrc: "/assets/images/_posts/op_aritmeticos.png"
+imgSrc: "/assets/images/_posts/logica1/op_aritmeticos.png"
 imgAlt: "Representación artística de operadores numéricos."
 layout: "@/layouts/BasePost.astro"
 ---

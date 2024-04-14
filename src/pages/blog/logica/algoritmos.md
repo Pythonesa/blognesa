@@ -2,7 +2,7 @@
 title: Algoritmos
 description: La receta para la solución.
 date: 2024-04-14T01:05
-imgSrc: "/assets/images/_posts/algoritmos.png"
+imgSrc: "/assets/images/_posts/logica1/algoritmos.png"
 imgAlt: "Imagen de un cubo metálico con patrones geométricos y una esfera de luz."
 layout: "@/layouts/BasePost.astro"
 ---

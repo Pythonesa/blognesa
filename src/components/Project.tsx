@@ -13,7 +13,7 @@ interface IProjectProps {
 
 export default function Project({ img, name, description, link, category }: IProjectProps) {
     return (
-        <div className="flex flex-col items-center gap-x-8 rounded-md bg-slate-800 p-2 md:flex-row">
+        <div className="flex flex-col items-center gap-x-6 rounded-md bg-slate-800 px-2 py-6 md:flex-row">
             <div className="shrink-0">
                 <a href={link} target="_blank" rel="noreferrer">
                     <img

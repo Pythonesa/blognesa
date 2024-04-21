@@ -11,7 +11,7 @@ export default function BlogCard({ instance }: IBlogCardProps) {
         <a className="hover:translate-y-1 transition-all" href={instance.url}>
             <div className="overflow-hidden rounded-md bg-slate-800 text-center">
                 <div className="aspect-w-3 aspect-h-2">
-                    <img className="mx-auto"
+                    <img className="mx-auto min-w-[350px] min-h-[350px]"
                         src={instance.frontmatter.imgSrc}
                         alt={instance.frontmatter.imgAlt}
                         loading="lazy"

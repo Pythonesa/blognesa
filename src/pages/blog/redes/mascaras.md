@@ -13,7 +13,7 @@ layout: "@/layouts/BasePost.astro"
 
 Las máscaras están compuestas por 32 bits (4 grupos de 8 bits, recordemos que cada bit es un 0 o un 1).
 
-Si no vieron el post de <span style="color: violet">[sistema binario de la serie de lógica](../../blog/logica/sistema-binario/)</span>, es un buen momento.
+Si no vieron el post de <span style="color: violet">[sistema binario de la serie de lógica](/blog/logica/sistema-binario/)</span>, es un buen momento.
 
 </br>
 

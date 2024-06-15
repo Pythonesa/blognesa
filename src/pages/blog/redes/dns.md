@@ -71,7 +71,7 @@ Existen herramientas en internet que nos permiten obtener la información de est
 
 </br>
 
-<span style="color: violet;">[**Network Tools**](https://mxtoolbox.com/supertool.aspx):</span> Permite consultar los registros de un dominio, además de incluir otras herramientas como consultar la información de registro del dominio (whois), chequear la reputación de un dominio (blacklist), probar un servidor SMTP, obtener información del bloque de dirección (arin), verificar las conexiones TPC, http y https permitidas,realizar ping o trace route y obtener un informe de posibles problemas del DNS.
+<span style="color: violet;">[**Network Tools**](https://mxtoolbox.com/supertool.aspx):</span> Permite consultar los registros de un dominio, además de incluir otras herramientas como consultar la información de registro del dominio (whois), chequear la reputación de un dominio (blacklist), probar un servidor SMTP, obtener información del bloque de dirección (arin), verificar las conexiones TCP, http y https permitidas,realizar ping o trace route y obtener un informe de posibles problemas del DNS.
 
 </br>
 

@@ -19,7 +19,7 @@ Los registros son básicamente instrucciones que se almacenan en servidores DNS 
 
 </br>
 
-***Tipo principales de registros DNS:***
+***Tipos principales de registros DNS:***
 
 </br>
 

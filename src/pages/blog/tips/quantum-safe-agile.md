@@ -41,7 +41,7 @@ Los problemas relacionados con retículas como SVP (Problema del vector más cor
 
 </br>
 
-Un ejemplo conocido es NTRU, basado en el SVP y de código abierto. <span style="color": violet;">[Acá el repo con código de referencia.](https://github.com/yedino/ntru-crypto)</span>.
+Un ejemplo conocido es NTRU, basado en el SVP y de código abierto. <span style="color: violet;">[Acá el repo con código de referencia.](https://github.com/yedino/ntru-crypto)</span>.
 
 </br>
 
@@ -61,7 +61,7 @@ Además, la longitud de los hashes que hoy se consideran seguros (como SHA-256) 
 
 Y, aunque están diseñados para minimizar las colisiones (cuando dos entradas diferentes producen el mismo hash), un algoritmo cuántico podría encontrar colisiones rápidamente.
 
-Un ejemplo sería [SPHINCS+](https://github.com/sphincs/sphincsplus).
+Un ejemplo sería <span style="color: violet;">[SPHINCS+](https://github.com/sphincs/sphincsplus).</span>
 
 </br>
 
@@ -85,7 +85,7 @@ Sin embargo, puede llegar a resultar difícil de implementar debido a su complej
 
 El ejemplo más conocido es el **esquema de McEliece** propuesto en 1978 y que utiliza códigos de corrección de errores para el cifrado y descifrado de datos.
 
-[Les dejo el github de una implementación simple en Python.](https://github.com/jkrauze/mceliece)
+<span style="color: violet;">[Les dejo el github de una implementación simple en Python.](https://github.com/jkrauze/mceliece)</span>
 
 </br>
 

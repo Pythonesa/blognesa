@@ -126,11 +126,9 @@ Y así la serpiadita volvió a provocarle a *Don Dev* una buena jaqueca pensando
 Y casi que volando salió a modificar su clase Oveja para reflejar lo que había pensado:
 
 ```python
-class Oveja:
-    def __init__(self, nombre, edad, peso, largo_lana):
-        self.nombre = nombre
-        self.edad = edad
-        self.peso = peso
+class Oveja(Animal):
+    def __init__(self, nombre, color, edad, largo_lana):
+        super().__init__(nombre, color, edad)
         self.__largo_lana = largo_lana
     
     def obtener_largo_lana(self):

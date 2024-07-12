@@ -15,7 +15,6 @@ export default function Hero() {
                 description={
                     <>
                         Soy una desarrolladora de software que adora el lenguaje python y el software libre.<br/>
-                        <strong>Soy apasionada de la tecnología, se editar fotos de gatitos y tengo hambre, denme trabajo no sean malas personas.</strong><br/>
                         En este blog planeo publicar proyectos, tutoriales, artículos y alguna otra cosa que se me ocurra.
                     </>
                 }

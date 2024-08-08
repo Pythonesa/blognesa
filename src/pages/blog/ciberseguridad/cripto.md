@@ -1,5 +1,5 @@
 ---
-title: Criptografía y Estenografía
+title: Criptografía y Esteganografía
 description: Protegiendo datos
 date: 2024-08-07T15:00
 imgSrc: "/assets/images/_posts/ciberseguridad/cripto.png"
